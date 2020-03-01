@@ -2,16 +2,11 @@
 Basic Bench
 ===========
 
-
-.. image:: https://img.shields.io/pypi/v/basicbench.svg
-        :target: https://pypi.python.org/pypi/basicbench
-
 .. image:: https://img.shields.io/travis/carl-mundy/basicbench.svg
         :target: https://travis-ci.com/carl-mundy/basicbench
 
-.. image:: https://readthedocs.org/projects/basicbench/badge/?version=latest
-        :target: https://basicbench.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+.. image:: https://codecov.io/gh/carl-mundy/basicbench/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/carl-mundy/basicbench
 
 
 
