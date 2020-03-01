@@ -10,7 +10,7 @@ install:
 
 # Command to run tests, e.g. python setup.py test
 script:
-  - coverage run tests.py
+  - coverage run
 
 # Push the results back to codecov
 after_success:
