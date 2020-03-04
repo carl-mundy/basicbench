@@ -10,7 +10,9 @@ class Bench:
 
     def new(self, *args, **kwargs) -> Experiment:
         """Return a new Experiment for usage"""
-        return Experiment(*args, **kwargs)
+        experiment = Experiment(*args, **kwargs)
+        self._experiments.append(experiment)
+        return experiment
 
     def list(self) -> List[Experiment]:
         return self._experiments
