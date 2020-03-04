@@ -17,6 +17,6 @@ def test_new_named_experiment_has_id():
     experiment = utils.create_experiment('my-experiment')
     assert experiment.id
 
-def test_new_named_experiment_has_created date():
+def test_new_named_experiment_has_created_date():
     experiment = utils.create_experiment('my-experiment')
     assert experiment.created 

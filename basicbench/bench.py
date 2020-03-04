@@ -1,5 +1,8 @@
+from .experiment import Experiment
+
+
 class Bench:
 
-    def new(self, name):
+    def new(self, *args, **kwargs) -> Experiment:
         """Return a new Experiment for usage"""
-        return 
+        return Experiment(*args, **kwargs)
